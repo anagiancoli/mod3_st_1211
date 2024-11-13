@@ -8,3 +8,10 @@ st.markdown("Este é texto")
 st.caption("Esta é a a legenda")
 st.code("x=2021")
 st.latex(r''' a+a r^1+a r^2+a r^3 ''')
+
+
+color = st.select_slider(
+    "Selecione a satifstação: ",
+    options=[0, 100],
+)
+st.write("My favorite color is", color)
