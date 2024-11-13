@@ -16,4 +16,4 @@ color = st.select_slider(
 )
 st.write("Satisfação: ", color)
 
-st.info("A satisfação foi de: ", icon=":material/thumb_up:" )
+st.info(f"A satisfação foi de: {color}", icon=":material/thumb_up:" )
