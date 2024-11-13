@@ -12,6 +12,6 @@ st.latex(r''' a+a r^1+a r^2+a r^3 ''')
 
 color = st.select_slider(
     "Selecione a satifstação: ",
-    options=[0, 100],
+    options=[0, 25, 50, 75, 100],
 )
 st.write("My favorite color is", color)
